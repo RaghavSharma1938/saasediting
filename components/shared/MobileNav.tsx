@@ -10,7 +10,6 @@ import { Button } from "../ui/button"
 
 const MobileNav = () => {
     const pathname = usePathname();
-    
     return (
         <header className="header">
             <Link href="/" className="flex items-center gap-2 md:py-2">
