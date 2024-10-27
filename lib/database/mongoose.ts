@@ -8,7 +8,7 @@ interface MongooseConnection {
 }
 
 // Module-level cache for the Mongoose connection
-let cached: MongooseConnection = {
+const cached: MongooseConnection = {
     conn: null,
     promise: null
 };
